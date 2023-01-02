@@ -44,9 +44,9 @@
     }
 
     window.open(
-      `mailto:test@example.com?subject=${$(form)
+      `mailto:rofesol.ng@gmail.com?subject=${$(form)
         .find("#subject")
-        .val()}/&body=${$(form).find("#message").val()}`
+        .val()}&body=${$(form).find("#message").val()}`
     );
   });
 })(jQuery);
