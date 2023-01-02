@@ -4,6 +4,7 @@
 @import 'libs/vendor';
 @import 'libs/breakpoints';
 @import 'libs/html-grid';
+@import 'libs/colors';
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,600,600italic,700');
 @import url('fontawesome-all.min.css');
 
@@ -698,8 +699,47 @@
 				width: auto;
 			}
 		}
+		.actions{
+			display: flex;
+			justify-content: space-evenly;
+            align-items: center;
+gap: 10px;
+			a{
+				border: 2px solid $blue;
+				padding: .2rem .3rem;
+				border-radius: 100px;
+				flex: 1;
+				text-decoration: none;
+				font-weight: bold;
+				&:hover, &:active{
+					opacity: .5;
+				}
+			}
+		}
+		.img-placeholder{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			font-weight: 600;
+			tab-size: 24rem;
+		}
 	}
-
+.hidden{
+	display: none;
+}
+.lang{
+	display: flex;
+	justify-content: start;
+	gap: 5px;
+	span{
+		background-color: #eeeeee;
+		color: black;
+		padding: 0.05rem .3rem;
+		font-size: xx-small;
+		font-weight: bold;
+        border-radius: 5px;
+	}
+}
 /* Icons */
 
 	.icon {
@@ -1193,3 +1233,4 @@
 			}
 
 	}
+
