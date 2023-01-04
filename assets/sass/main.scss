@@ -776,6 +776,14 @@ gap: 10px;
 				font-size: 6em;
 			}
 		}
+		&.container{
+			width: 200px;
+			overflow: hidden;
+
+			img{
+				all: inherit;
+			}
+		}
 	}
 
 /* Wrappers */
