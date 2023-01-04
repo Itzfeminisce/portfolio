@@ -4,9 +4,9 @@
     "display": "standalone",
     "scope": "/",
     "start_url": "/?path=app",
-    "name": "Rotimi Oluwafemi's portfolio website",
+    "name": "Rotimi Oluwafemi's Portfolio",
     "short_name": "itzfeminisce",
-    "description": "Rotimi Oluwafemi's portfolio website",
+    "description": "Rotimi Oluwafemi's portfolio website is where you find most of my projects, programming languages i write and contact form  to get in touch anytime, anywhere.",
     "icons": [
         {
             "src": "/icon-192x192.png",
